@@ -1,14 +1,14 @@
-baseurl: /tufte-jekyll
-title: Tufte-Jekyll
-subtitle: Content-centric blogging
-author: clay harmon
+baseurl: /pbsjones.github.io
+title: Writing 
+subtitle: About stuff.
+author: pbsjones
 simple_search: http://google.com/search
-description: A Jekyll theme for content-rich sites
-name: tufte
+description: A place for writing about stuff.
+name: pbsjones.github.io
 markdown: kramdown
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 permalink: /articles/:short_year/:title
-timezone: America/New_York
+timezone: America/Denver
 excerpt_separator: <!--more-->  # you can specify your own separator, of course.
 exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'UploadToGithub.Rakefile', 'README.md']
 post:
@@ -17,11 +17,6 @@ post:
 page:
   template: _page.txt
   extension: md
-editor: gvim
+editor: neovim
 git:
-  branch: master
-transfer:
-  command: rsync
-  settings: -av
-  source: _site/
-  destination: ~/Git/clayh53.github.com/
+  branch: main
